@@ -1,15 +1,25 @@
-# Getting Started with Create React App
+# Palm2 AI Chatbot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was built for a tutorial on Palm2.
+
+## Create a .env file
+Make sure to create and fill out the .env file based on the .env.sample file
+
+```
+LANGUAGE_MODEL_API_KEY={YOUR_KEY_GOES_HERE}
+```
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.\
+### `npm start:frontend`
+To start the frontend in one tab
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+### `npm start:backend` 
+To start the backend in one tab
+Open [http://localhost:8000](http://localhost:8000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
