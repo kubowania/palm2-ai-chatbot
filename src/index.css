@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227,227,227);
+    display: flex;
+    justify-content: end;
+    height: 100vh;
+    align-items: end;
+    font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+    margin: 5px;
+}
+
+.chat-bot {
+    position: relative;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 0 0;
+    margin: 20px 20px 0 20px;
+    box-shadow: rgba(0,0,0,0.16) 0 10px 36px, rgba(0,0,0,0.06) 0 0 0 1px;
+    overflow: hidden;
+}
+
+.info-container {
+    height: 60px;
+    background: linear-gradient(rgb(22, 197, 141), rgb(6, 120, 84));
+    padding: 25px;
+    color: rgb(244, 244, 244);
+}
+
+textarea {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px 70px 25px 25px;
+    border-top: 1px solid rgb(207,207,207);
+}
+
+textarea:focus {
+    outline: none;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(6, 120, 84);
+    color: rgb(207, 207, 207);
+    position: absolute;
+    bottom: 21px;
+    right: 21px;
+}
+
+.bubble {
+    width: 250px;
+    padding: 20px;
+    margin: 10px 25px;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.24) 0 3px 8px;
+    color: rgb(74, 74, 74);
+}
+
+.question {
+    background-color: rgb(244, 244, 244);
+}
+
+.response {
+    margin-left: 85px;
+}
+
+.chat-header {
+    position: relative;
+    z-index: 1;
+}
+
+.feed {
+    position: absolute;
+    bottom: 82px;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+
